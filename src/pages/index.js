@@ -29,8 +29,14 @@ const IndexPage = () => {
         path=""
       />
 
-      <h1>{title}</h1>
-      <p>{description}</p>
+      <section>
+        <h3>What is included?</h3>
+        <ul>
+          <li>gatsby-plugin-react-helmet</li>
+          <li>gatsby-plugin-image</li>
+          <li>gatsby-plugin-mdx</li>
+        </ul>
+      </section>
     </Layout>
   )
 }
