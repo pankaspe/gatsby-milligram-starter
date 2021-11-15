@@ -1,7 +1,7 @@
 <h1 align="center">
   Gatsby milligram.css starter
 </h1>
-
+![Schermata da 2021-11-15 14-09-14](https://user-images.githubusercontent.com/7622507/141787614-d4e218a0-e0a6-4f15-b3dd-5e2f5f723ef6.png)
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
