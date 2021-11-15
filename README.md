@@ -14,8 +14,10 @@ This project is simple integration of Milligram.css to Gatsby js system
 
 ## Technologies
 Project is created with:
-* Gatbsy version: 4.0.1
+* Gatbsy version: 4.1.3
 * Milligram version: 1.4.1
+* Gatsby-plugin-react-helmet: 5.1.0
+* Gatsby-plugin-mdx: 3.1.3
 
 ## Setup
 To run this project, install it locally using npm:
