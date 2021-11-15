@@ -18,6 +18,7 @@ const IndexPage = () => {
   return (
     <Layout>
 
+      // SEO component
       <Seo
         title={title}
         description={description}
@@ -29,6 +30,7 @@ const IndexPage = () => {
         path=""
       />
 
+      // main section
       <section>
         <h3>What is included?</h3>
         <ul>
