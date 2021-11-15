@@ -1,7 +1,18 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.example.it",
     title: "milligram-starter",
+    description: "Starter Gatsby template with milligram css",
+    author: "Andrea B.",
+    keywords: ["gatsbyjs, starter, javascript, react"],
+    lang: "it",
+    ogImage: "images/og-image.jpg",
+    url: "https://www.example.it",
+    favicon: {
+      ico: 'images/favicon.ico',
+      sm: 'images/favicon-16x16.png',
+      lg: 'images/favicon-32x32.png'
+    }
   },
   plugins: [
     "gatsby-plugin-image",
