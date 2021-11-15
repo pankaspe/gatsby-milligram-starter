@@ -18,7 +18,6 @@ const IndexPage = () => {
   return (
     <Layout>
 
-      // SEO component
       <Seo
         title={title}
         description={description}
@@ -30,14 +29,33 @@ const IndexPage = () => {
         path=""
       />
 
-      // main section
       <section>
-        <h3>What is included?</h3>
-        <ul>
-          <li>gatsby-plugin-react-helmet</li>
-          <li>gatsby-plugin-image</li>
-          <li>gatsby-plugin-mdx</li>
-        </ul>
+        <div className="row">
+          <div className="column">
+            <h3>What libraries are included?</h3>
+            <ul>
+              <li>gatsby-plugin-react-helmet</li>
+              <li>gatsby-plugin-image</li>
+              <li>gatsby-plugin-mdx</li>
+            </ul>
+          </div>
+          <div className="column">
+            <h3>How is it structured?</h3>
+            <ul>
+              <li>layout.js as main wrapper</li>
+              <li>useSiteMetadata.js for query site options</li>
+              <li>use of js module.css</li>
+            </ul>
+          </div>
+          <div className="column">
+            <h3>To do</h3>
+            <ul>
+              <li>integrate scroll-reveal</li>
+              <li>writing some base components like navbar</li>
+              <li>include manifest and sitemap</li>
+            </ul>
+          </div>
+        </div>
       </section>
     </Layout>
   )
